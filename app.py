@@ -5,7 +5,7 @@ import tensorflow as tf
 import joblib
 from PIL import Image
 from keras.models import load_model
-model = load_model("skin_disease_model.h5", compile=False)
+
 
 # -------------------------
 # Page Setup
