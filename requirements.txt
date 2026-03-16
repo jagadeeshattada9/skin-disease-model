@@ -1,5 +1,9 @@
 streamlit
+<<<<<<< HEAD
 tensorflow-cpu==2.15.0
+=======
+keras
+>>>>>>> 8f90ad1 (switched from tensorflow to keras)
 opencv-python-headless
 numpy
 pandas
