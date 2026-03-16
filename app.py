@@ -4,8 +4,6 @@ import cv2
 import tensorflow as tf
 import joblib
 from PIL import Image
-from keras.models import load_model
-
 
 # -------------------------
 # Page Setup
@@ -23,7 +21,7 @@ st.write("Upload a skin image and enter patient details")
 @st.cache_resource
 def load_resources():
 
-    model = load_model("skin_disease_model.h5", compile=False)
+    model = tf.keras.models.load_model("skin_disease_model.h5", compile=False)
 
     label_encoder = joblib.load("label_encoder.pkl")
     sex_encoder = joblib.load("sex_encoder.pkl")

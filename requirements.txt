@@ -1,10 +1,6 @@
 streamlit
-<<<<<<< HEAD
-tensorflow-cpu==2.15.0
-=======
-keras
->>>>>>> 8f90ad1 (switched from tensorflow to keras)
-opencv-python-headless
+tensorflow==2.20.0
+opencv-python
 numpy
 pandas
 scikit-learn
