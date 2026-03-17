@@ -1,8 +1,7 @@
-streamlit
-tensorflow==2.20.0
-opencv-python
-numpy
+streamlit==1.32.0
+tensorflow-cpu==2.15.0
+numpy==1.24.4
 pandas
+Pillow
 scikit-learn
-pillow
-joblib
+opencv-python-headless
